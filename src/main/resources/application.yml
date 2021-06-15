@@ -1,0 +1,16 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+      freemarker:
+        cache: false
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/Subscription
+    username: admin
+    password: 1234
+    driverClassName: org.h2.Driver
+
